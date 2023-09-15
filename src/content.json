@@ -1,0 +1,21 @@
+{
+  "slnt": {
+    "commands": "!sr <youtube url>: add a Youtube video !session: get the current session url !song: currently playing song !extension: read about our browser extension !slnt: read about SLNT !commands: all commands",
+    "about": "SLNT allows the streamer to play any kind of music (even copyrighted music!) and sync it with you, the viewer. For more information go to https://slnt.stream/",
+    "extension": "The SLNT browser plugin makes it possible you to listen to your SLNT session without delay: https://chrome.google.com/webstore/detail/slntstream/beljoephfogglpicaemgcebfddbmelpi"
+  },
+  "session": {
+    "created": "{channel} has started a SLNT session! Listen and watch along via https://slnt.stream/hub/session/{sessionId}",
+    "inactive": "{channel} does not have an active SLNT session!",
+    "link": "Join my SLNT stream and listen/watch along to my videos: https://slnt.stream/hub/session/{sessionId}",
+    "stopped": "{channel} has stopped their SLNT session. Thank you for listening!",
+    "nothingPlaying": "Nothing is playing right now.",
+    "nowPlaying": "Now playing: {title} by {channel}",
+    "requestLimit": "@{user} please wait {seconds} seconds before requesting a song again!",
+    "requestAdded": "Added {title} by {channel} to the playlist!",
+    "requestDisabled": "You do not have permission to add song requests.",
+    "requestMissing": "Please add a valid Youtube link to your request.",
+    "requestInvalid": "Your Youtube link is invalid.",
+    "requestFailed": "We couldn't retrieve that video. Please try again."
+  }
+}

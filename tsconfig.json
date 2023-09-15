@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es6"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@config": ["./src/config/index"],
+      "@interfaces/*": ["./src/types/*.d.ts"],
+      "@utils/*": ["./src/utils/*"],
+      "@loaders/*": ["./src/loaders/*"],
+      "@services/*": ["./src/services/*"],
+      "@models/*": ["./src/models/*"],
+      "@api/*": ["./src/api/*"],
+      "@commands": ["./src/commands/index"],
+      "@sockets": ["./src/sockets/index"],
+      "@routes": ["./src/api/routes/index"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
